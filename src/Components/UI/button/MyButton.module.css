@@ -1,0 +1,22 @@
+.myBtn {
+  padding: 5px 15px;
+  color: teal;
+  font-size: 14px;
+  background: transparent;
+  border: 1px solid teal;
+  cursor: pointer;
+  transition: 0.1s;
+}
+
+.myBtn:hover:not(:disabled) {
+  background: rgba(0,0,0,0.1);
+}
+
+.myBtn:not(:disabled):active {
+  opacity: 0.6;
+}
+
+.myBtn:disabled {
+  color: silver;
+  border-color: silver;
+}
